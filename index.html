@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Doug's Pub</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div id="doug">Doug's Pub</div>
+      </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="sliders" style="margin-left: 0">
+        <div class="slide fade">
+          <div class="slidearea">
+            <img src="assets/images/bannerteste.jpg" alt="" />
+          </div>
+        </div>
+        <div class="slide fade">
+          <div class="slidearea">
+            <img
+              src="assets/images/slide2.jpg"
+              alt=""
+              style="object-position: bottom"
+            />
+          </div>
+        </div>
+        <div class="slide fade">
+          <div id="img-slide-3" class="slidearea">
+            <img
+              src="assets/images/slide3.jpg"
+              alt=""
+              style="object-position: bottom"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="sliders-pointers">
+        <div class="pointer" onclick="mudarMargem(0)"></div>
+        <div class="pointer" onclick="mudarMargem(-100)"></div>
+        <div class="pointer" onclick="mudarMargem(-200)"></div>
+      </div>
+    </section>
+
+    <main>
+      <section>
+        <div class="bem-vindo">
+          <h1 id="bemvindoh">bem-vindo</h1>
+          <p id="bemvindob">
+            Bem-vindo à nossa loja virtual de bebidas, onde a qualidade e o
+            sabor se encontram! Aqui, você encontrará uma seleção diversificada
+            de bebidas finas e requintadas, perfeitas para qualquer ocasião. De
+            vinhos sofisticados a destilados premiados, temos algo para todos os
+            gostos. Navegue pelas categorias, faça suas escolhas e desfrute da
+            comodidade de receber tudo na sua porta. Brinde conosco e embarque
+            nessa jornada saborosa. Bem-vindo à nossa loja de bebidas online!
+          </p>
+        </div>
+      </section>
+
+      <section class="sobre">
+        <div class="sobre-conteudo">
+          <h2 id="sobreh">sobre</h2>
+          <div id="sobreb">
+            Sejam muito bem-vindos ao nosso espaço! Aqui, em nossa franquia de
+            bebidas, oferecemos experiências únicas e saborosas para todos os
+            gostos. Nossa história começou com um sonho: criar um ambiente
+            acolhedor, onde aromas e sabores se fundem em uma dança deliciosa,
+            proporcionando momentos memoráveis.<br /><br />
+            <span class="segundo-p">
+              Comprometidos com a qualidade e excelência no atendimento,
+              buscamos sempre superar expectativas. Queremos que se sintam em
+              casa ao explorar nossa ampla seleção de bebidas, desde os
+              clássicos atemporais até criações inovadoras. Compartilhe conosco
+              suas histórias e preferências, pois sua satisfação é nossa maior
+              alegria. Navegue por nosso site, descubra nossos eventos especiais
+              e promoções imperdíveis. Junte-se a nós nessa jornada e brindemos
+              juntos à felicidade!
+            </span>
+          </div>
+          <a href="" class="button">ler mais</a>
+        </div>
+        <div class="img-left">
+          <div class="sobre-img1"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sobre">
+          <div class="sobre-img2">
+            <div class="rgba">
+              <div class="sobre-img-titulo">Serviços</div>
+              <p class="sobre-img-desc">Satisfação garantida</p>
+            </div>
+          </div>
+          <div class="sobre-img3">
+            <div class="rgba">
+              <div class="sobre-img-titulo">Serviços</div>
+              <p class="sobre-img-desc">Compromisso com a qualidade</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-area">
+          <div class="footer--item area1">
+            <div class="footer-social">
+              <a href=""><img src="assets/images/twitter.png" /></a>
+              <a href="" class="active"
+                ><img src="assets/images/linkedin.png"
+              /></a>
+              <a href=""><img src="assets/images/facebook.png" /></a>
+              <a href=""><img src="assets/images/googleplus.png" /></a>
+              <a href=""><img src="assets/images/pinterest.png" /></a>
+            </div>
+          </div>
+          <div class="footer-item-area2">
+            <h1 id="footer-tittle">Doug's Pub</h1>
+            <p>douglasgenetic@gmail.com</p>
+            <p class="copy">
+              ©2023 por Doug's Pub. Orgulhosamente criado por Douglas Fernandes
+            </p>
+          </div>
+          <div class="footer--item area3">
+            <form method="POST">
+              <input type="email" name="email" placeholder="EMAIL " />
+              <button class="button-footer">Inscreva-se</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+
+  <script src="/assets/js/script.js">
+
+  </script>
+</html>
