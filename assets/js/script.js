@@ -24,5 +24,5 @@ function startCarousel() {
         updatePointers();
     }, 3000); // 3 segundos (3000 milissegundos) de intervalo entre cada transição
 }
-
+//teste
 startCarousel();
